@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>От не хочу — до смысла жизни | Злата</title>
+  <style>
+    /* Сброс базовых стилей */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Lora', 'Times New Roman', serif;
+      color: #3C322F;
+      background-color: #F9F5F2;
+      line-height: 1.6;
+    }
+
+    /* Геро-секция */
+    .hero {
+      background: linear-gradient(160deg, #3A1C25 0%, #5D3A3A 50%, #E6C5B5 100%);
+      color: white;
+      padding: 120px 20px 80px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 2.8rem;
+      font-weight: 600;
+      margin-bottom: 24px;
+      letter-spacing: -0.5px;
+    }
+
+    .hero p {
+      font-size: 1.3rem;
+      max-width: 700px;
+      margin: 0 auto 30px;
+      font-style: italic;
+    }
+
+    .scroll-hint {
+      margin-top: 40px;
+      font-size: 0.9rem;
+      opacity: 0.8;
+    }
+
+    /* Общие секции */
+    section {
+      padding: 80px 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.1rem;
+      color: #6B2C3B;
+      margin-bottom: 30px;
+      font-weight: 600;
+      position: relative;
+    }
+
+    h2:after {
+      content: '';
+      display: block;
+      width: 50px;
+      height: 3px;
+      background: #6B2C3B;
+      margin-top: 12px;
+    }
+
+    p {
+      margin-bottom: 18px;
+      font-size: 1.1rem;
+    }
+
+    .path p {
+      text-indent: 20px;
+    }
+
+    .quotes {
+      font-style: italic;
+      color: #6B2C3B;
+      margin: 16px 0;
+      padding-left: 15px;
+      border-left: 3px solid #E8B49C;
+    }
+
+    .about p, .advice p, .campaign p {
+      text-indent: 0;
+    }
+
+    /* Контейнер для видео (адаптивный) */
+    .video-container {
+      position: relative;
+      width: 100%;
+      max-width: 640px;
+      margin: 0 auto;
+      padding-top: 56.25%; /* Соотношение 16:9 */
+      background: #3A1C25;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+
+    /* Адаптивность */
+    @media (max-width: 768px) {
+      .hero h1 { font-size: 2.2rem; }
+      .hero p { font-size: 1.1rem; }
+      h2 { font-size: 1.8rem; }
+      section { padding: 60px 15px; }
+      .video-container { max-width: 100%; }
+    }
+
+    @media (max-width: 480px) {
+      .hero { padding: 90px 15px 60px; }
+      .hero h1 { font-size: 1.9rem; }
+      .hero p { font-size: 1rem; }
+      h2 { font-size: 1.6rem; }
+    }
+
+    /* Футер */
+    footer {
+      background: #3A1C25;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+      font-style: italic;
+      font-size: 1rem;
+    }
+
+    footer .quote {
+      color: #E8B49C;
+      display: block;
+      margin-top: 10px;
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Геро-секция -->
+  <div class="hero">
+    <h1>От не хочу — до смысла жизни</h1>
+    <p>Привет! Я Злата, мне 12 лет.  
+    Несколько лет назад я смотрела в камеру и думала: «Не хочу. Это не про меня».  
+    А сегодня — я здесь. Потому что поняла: моделинг — это не про идеальность. Это про смелость быть собой. Про то, как ты держишься, улыбаешься, ошибаешься — и всё равно идёшь вперёд.</p>
+    <div class="scroll-hint">ниже — мой путь ↓</div>
+  </div>
+
+  <!-- Мой путь -->
+  <section class="path">
+    <h2>Мой путь</h2>
+    <p>Я полюбила моделинг не сразу.</p>
+    <p>Сначала это был просто кружок или проба — а потом…</p>
+    <p>Потом здесь появились друзья, с которыми можно смеяться в перерыве между дублями.</p>
+    <p>Появилось будущее, о котором стало интересно думать: <span class="quotes">«А что, если…?»</span></p>
+    <p>Появился опыт — как держать осанку, как слушать себя, как не бояться первого плана.</p>
+    <p>И знания — не только про позы и свет, а про людей, про доверие, про то, как рождается образ.</p>
+  </section>
+
+  <!-- Обо мне -->
+  <section class="about" style="background-color: #F2ECE8;">
+    <h2>Обо мне</h2>
+    <p>Мне очень нравится всё связанное с сферой моделинга, но больше всего нравится работа перед камерой, проще говоря-фотосессии.</p>
+    <p>Сначала-я хочу научиться фотографировать. потому что мне важно знать не только то, как быть в кадре, но и знать, как он создается. еще я хочу быть примером для таких же детей как и я. что бы мой путь вдохновлял их: <span class="quotes">"а если злата смогла-может и у меня получится?"</span></p>
+  </section>
+
+  <!-- Советы -->
+  <section class="advice">
+    <h2>Мои личные советы подросткам</h2>
+    <p>я всегда боялась делать что то необычное на улице. думала "а что подумают другие? вдруг я покажусь им странной". но в нынешнем мире всем будет абсолютно все равно. ты-отдельная личность, а другие люди-это отдельные личности, которые живут своей жизнью. если боишься-пробуй. твой страх-это лишь мысли. тебя не посмеет никто оскорбить за твои ошибки.</p>
+  </section>
+
+  <!-- Мой первый кампейн -->
+  <section class="campaign" style="background-color: #F2ECE8;">
+    <h2>Мой первый кампейн</h2>
+    <div class="video-container">
+      <iframe 
+        src="https://www.youtube.com/embed/X6_vSiokeus?si=6PkAXhddjtqgWfQv" 
+        title="Мой первый кампейн"
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        allowfullscreen>
+      </iframe>
+    </div>
+  </section>
+
+  <!-- Футер -->
+  <footer>
+    © 2025 Злата<br>
+    Этот сайт — не про идеал. Про путь.<br>
+    <span class="quote">«а если злата смогла — может и у меня получится?»</span>
+  </footer>
+
+</body>
+</html>
+
